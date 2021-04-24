@@ -1,0 +1,32 @@
+div#view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  div.album {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+div.album p{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img.tasto{
+    width: 50px;
+}
+
+  div.album img {
+    max-width: 100%;
+  }
+
+  .hidden{
+      display: none;
+  }
